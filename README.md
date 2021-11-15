@@ -1,6 +1,51 @@
 # PersonalPortfolio
+Personal Portfolio is a platform to show all the personal activities, events, documentation and 
+professional portfolio of projects. Additionally it shows important libraries and code 
+to create or implement software projects.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
+
+## Creations settings
+ng new PersonalPortfolio
+
+Angular Routing - Yes
+
+Stylesheet - SCSS
+
+ng add @angular/material
+
+https://material.angular.io/?theme=deeppurple-amber
+Angular Material Typography -- Yes
+Browser Animations - Yes
+
+npm i highcharts-angular --save
+
+npm i highcharts --save
+
+npm i @angular/flex-layout @angular/cdk --save
+
+
+
+ng g c layouts/default
+ng g m layouts/default
+
+ng g c modules/dashboard
+
+ng g c shared/components/header
+ng g c shared/components/footer
+ng g c shared/components/sidebar
+
+ng g m shared
+ng g c modules/posts
+
+ng g c shared/widgets
+ng g c shared/widgets/area
+ng g c shared/widgets/card
+ng g c shared/widgets/pie
+
+ng g s modules/dashboard
+
+
 
 ## Development server
 
